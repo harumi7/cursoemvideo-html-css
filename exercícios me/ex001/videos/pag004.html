@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos em HTML5</title>
+    <style>
+        mark {
+            background-color: rgb(154, 84, 220);
+        }
+    </style>
+</head>
+<body>
+    <a href="../index.html" rel="prev" target="_self">Voltar à página principal</a>
+    <h1>Como colocar vídeo usando HTML5?</h1>
+    <h2>Servidor próprio</h2>
+    <p>Aqui, ensino como hospedar um vídeo do meu servidor.
+    <br>Basta usar a tag <mark>VIDEO</mark> <strong>controls</strong> (mostra os controles/barrinha) <strong>width="" height=""</strong> <strong>poster=""</strong> (mostra uma thumb)
+    <br>tag <mark>SOURCE:SRC</mark> <strong>type=""</strong>
+    </p>
+    <video controls width="560" height="315" poster="imagens/capa-video.png">
+        <source src="midia/meu-video.webm" type="video/webm">
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="midia/meu-video.mkv" type="video/mkv">
+    </video>
+    <h2>Youtube</h2>
+    <p>Agora, peguei um vídeo do Youtube e coloquei aqui.
+    <br>Para pegar o código HTML, basta entrar em um vídeo no Youtube > Compartilhar > Incorporar > Copiar
+    </p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/em10OdyS01k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>

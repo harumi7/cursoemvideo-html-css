@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resumo</title>
+    <link rel="shortcut icon" href="riku-icon.ico" type="image/x-icon">
+    <style>
+        mark {
+            background-color: rgb(199, 51, 199);
+        }
+    </style>
+</head>
+<body>
+    <h1>Resumo geral</h1>
+    <p>Bom dia! Estou resumindo tudo que aprendi de HTML até agora, ou então eu vou acabar esquecendo depois!</p>
+    <hr>
+    <h2>Assuntos já estudados</h2>
+    <p>Abaixo, deixo um resumo em lista de tudo que aprendi:</p>
+    <ul>
+        <li>Paragráfos &lt;p&gt;&lt;/p&gt;, quebras &lt;br&gt;, emoji &#x1F60A e símbolos &uparrow;
+        <li>Inserindo imagens simples &lt;img src=linkdaimagemaqui.png alt=descriçãoimagem/&gt;
+        <li>Utilizando favicons
+        <li>Hierarquia de títulos &lt;h1&gt;&lt;/h1&gt; ao &lt;h6&gt;&lt;/h6&gt;
+        <li>Formatações de textos em HTML:
+            <ol type="a">
+            <li>destaque = <strong>utiliza-se a tag STRONG</strong>
+            <li>ênfase = <em>tag EM</em>
+            <li>texto marcado = tag <mark>MARK</mark>
+            <li>texto pequeno = tag <small>SMALL</small>
+            <li>texto deletado = tag <del>DEL</del>
+            <li>texto inserido = tag <ins>INS</ins>
+            <li>texto sobrescrito = tag <sup>SUP</sup>
+            <li>texto subscrito = tag <sub>SUB</sub>
+            </ol>
+        <li>Formatações de códigos, citações e abreviações.
+            <ol type="a">
+            <li>código-fonte = utiliza-se a tag &lt;CODE&gt; para deixar em fonte monospace e a tag PRE para deixar o texto estruturado   
+        <pre>
+        <code>
+num = int(input("Digite um número: "))
+if num % 2 == 0:
+    print(f"O número {num} é PAR.")
+else:
+    print(f"O número {num} é ÍMPAR.")
+        </code>
+        </pre>
+            <li>citações simples: tag Q. ex: Como dizia minha amiga: <q>Nem tudo que reluz é ouro.</q>
+            <li>citações completas: tag BLOCKQUOTE CITE="LINKDAREFERÊNCIAAQUI". ex: Segundo Jairnilson Silva Paim, no seu livro O que é o SUS?: <blockquote cite="https://www.google.com.br/books/edition/O_que_é_o_SUS/5unrAgAAQBAJ?hl=pt-BR&gbpv=0">...lembrando que o sistema de saúde é integrado não só pelos serviços de saúde, mas também pela mídia, escolas, financiadores, indústrias de equipamentos e de medicamentos, universidades, institutos de pesquisa etc.</blockquote></li>
+            <li>abreviações: tag ABBR. ex: Estou aprendendo <abbr title="HyperText Markup Language">HTML</abbr> e Python. Depois de ter uma boa base em HTML, vou começar <abbr title="Cascading Style Sheets">CSS</abbr>.
+            <li>texto invertido: tag BDO DIR="DIREÇÃO". ex: <bdo dir="rtl">A Bruxa Dourada Beatrice</bdo></li>
+            </ol>
+            <li>Listas em HTML
+            <ol>
+                <li>Lista ordenada: tag OL e tag LI em cada item
+                <li>Lista não ordenada: tag UL e tag LI em cada item
+                <li>Lista mista: tag OL e UL dentro uma da outra
+                <li>Lista de definição: tag DL; termo=tag DT, descrição=tag DD. ex:
+                    <dl>
+                        <dt>HTML</dt>
+                        <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd>
+                        <dt>CSS</dt>
+                        <dd>Linguagem de marcação para a criação do design de um site.</dd>
+                        <dt>Javascript</dt>
+                        <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+                    </dl>
+            </ol>
+                <li>Links</li>
+            <ol type="a">
+                <li>externos: &lt;a href="linkaqui" target="_blank" ref="external"&gt;&lt;/a&gt;
+                <li>internos: &lt;a href="paginaaqui" rel="next"&gt;clique aqui&lt;/a&gt;
+                <li>download: &lt;a href="linkaqui.zip" download="linkaqui.zip" type="application/zip"&gt;clique aqui&lt;/a&gt;
+            </ol>
+            <li>Imagens <a href="imagens-dinamicas/pag002.html" rel="next">dinâmicas</a> e <a href="audios/pag003.html" rel="next">áudio</a>
+            <li><a href="">Vídeos</a> em HTML5
+        </ul>
+        <p><strong>ACABAMOS HTML5!!!!</strong></p>
+</body>
+</html>

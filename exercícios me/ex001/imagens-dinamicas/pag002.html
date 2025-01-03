@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas</title>
+</head>
+<body>
+    <p><a href="../index.html" rel="prev" target="_self">Voltar à pagina principal</a></p>
+    <h1>Imagem dinâmica: como fazer?</h1>
+    <p>Use a tag PICTURE, IMG SRC="" E SOURCE:MEDIA:TYPE
+    <br>Para testar, diminua a tela do site e veja a mágica.</p>
+    <picture>
+        <source media="(max-width: 750)" srcset="imagens/foto-p" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+</body>
+</html>

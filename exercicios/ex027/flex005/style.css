@@ -12,7 +12,7 @@ body {
 
 main {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #555D24;
+    background-color: #6a751e;
     display: flex;
     flex-flow: row nowrap;
     width: 100vw;
@@ -27,7 +27,7 @@ section {
     height: 460px;
     padding: 15px;
     border-radius: 10px;
-    box-shadow: 7px 7px #761603,
+    box-shadow: 7px 7px #aa2207,
     7px 7px 0px 2px black;
     border: 2px solid black;
 }
@@ -48,7 +48,7 @@ button {
     font-family: 'Quicksand'; 
     padding: 15px;
     font-size: medium;
-    background-color: #761603;
+    background-color: #aa2207;
     border: none;
     width: 100%;
     border-radius: 10px;

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propriedade order</title>
+    <style>
+        div.container {
+            background-color: burlywood;
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+        div.item {
+            background-color: coral;
+            border: 1px solid black;
+            text-align: center;
+            padding: 20px;
+        }
+
+        div#ia {
+            order: 0;
+        }
+
+        div#ib {
+            order: -2;
+        }
+
+        div#ic {
+            order: 4;
+        }
+
+        div#id {
+            order: 8;
+        }
+
+        div#ie {
+            order: 2;
+        }
+
+        div#if {
+            order: 0;
+        }
+
+        div#ig {
+            order: -4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="ia">A</div>
+        <div class="item" id="ib">B</div>
+        <div class="item" id="ic">C</div>
+        <div class="item" id="id">D</div>
+        <div class="item" id="ie">E</div>
+        <div class="item" id="if">F</div>
+        <div class="item" id="ig">G</div>
+    </div>
+</body>
+</html>

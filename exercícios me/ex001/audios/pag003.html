@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserindo áudio</title>
+    <style>
+        mark {
+            background-color: rgb(167, 118, 212);
+        }
+    </style>
+</head>
+<body>
+    <a href="../index.html" rel="prev" target="_self">Voltar à página principal</a>
+    <h1>Como inserir áudio no site?</h1>
+    <p>Use a tag <mark>AUDIO</mark>.
+    <strong>preload=</strong> "metadata"/"auto"/"none<strong> autoplay</strong> (começar automaticamente) <strong>controls</strong> (mostrar os controles/barrinha) <strong>loop</strong> (quando acabar, começar de novo)
+    <br>tag <mark>SOURCE:SRC</mark> type="audio/formato"
+    </p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/pray_anno-domini-beats.mp3" type="audio/mpeg">
+        <source src="midia/pray_anno-domini-beats.ogg" type="audio/ogg">
+        <source src="midia/pray_anno-domini-beats.wav" type="audio/wav">
+        <p>Infelizmente, seu navegador não consegue reproduzir áudio. <a href="midia/pray_anno-domini-beats.zip" download="midia/pray_anno-domini-beats.zip" type="application/zip">Clique aqui</a> para fazer download do arquivo MP3.</p>
+    </audio>
+</body>
+</html>

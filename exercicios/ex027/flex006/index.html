@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propriedade align-content</title>
+    <style>
+        div#container {
+            border: 1px solid black;
+            background-color: darkkhaki;
+            display: flex;
+            flex-flow: row wrap;
+            align-content: space-evenly;
+            height: 500px;
+        }
+
+        div.item {
+            border: 1px solid black;
+            background-color: olive;
+            color: wheat;
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            padding: 20px;
+            font-weight: bolder;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <h1>Align-content</h1>
+    <p>A propriedade align-content faz o alinhamento no cross-axis (eixo transversal) quando os elementos estão empacotados.</p>
+    <p>Leia essa definição que encontrei na internet: "<em>align-content handles rows of content the same as how align-items handles items in a single row</em>"</p>
+
+    <div id="container">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+        <div class="item">H</div>
+        <div class="item">I</div>
+        <div class="item">J</div>
+    </div>
+</body>
+</html>

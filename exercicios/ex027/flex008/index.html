@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propriedade align-self</title>
+    <style>
+        div.container {
+            background-color: burlywood;
+            display: flex;
+            flex-flow: row wrap;
+            align-items: flex-start;
+            height: 400px;
+        }
+
+        div.item {
+            background-color: coral;
+            border: 1px solid black;
+            text-align: center;
+            padding: 20px;
+        }
+
+        div#ia {
+            
+        }
+
+        div#ib {
+            align-self: flex-end;
+        }
+
+        div#ic {
+            
+        }
+
+        div#id {
+            align-self: auto; /* Herda o align-items do pai */
+        }
+
+        div#ie {
+            align-self: center;
+        }
+
+        div#if {
+            
+        }
+
+        div#ig {
+            align-self: stretch;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="ia">A</div>
+        <div class="item" id="ib">B</div>
+        <div class="item" id="ic">C</div>
+        <div class="item" id="id">D</div>
+        <div class="item" id="ie">E</div>
+        <div class="item" id="if">F</div>
+        <div class="item" id="ig">G</div>
+    </div>
+</body>
+</html>
